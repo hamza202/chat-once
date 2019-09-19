@@ -26811,8 +26811,9 @@ body#error-page + footer, body#comingSoon-page + footer {
 }
 
 #screenshots-section [id*=screenshots-carousel] .owl-carousel .owl-item img {
-    min-height: 487px;
-    overflow: hidden
+    height: 487px;
+    overflow: hidden;
+    width: 99%;
 }
 
 #screenshots-section #screenshots-carousel-2 .owl-carousel .owl-item img {
