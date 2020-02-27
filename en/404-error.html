@@ -1,0 +1,336 @@
+<!DOCTYPE html><html lang="ar">
+<!-- Mirrored from norhan-mohammed.com/demos/xena/rtl/404-error.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Sep 2019 10:20:46 GMT -->
+<head><title>404 Error - Xena</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="HTML App Landing Page Template"><meta name="keywords" content="Landing app ,HTML,Template,theme,themeforest,envato "><meta name="Author" content="Norhan , PionThemes"><meta name="copyright" content="© 2019 Xena All rights reserved "><link rel="shortcut icon" href="assets/images/logo/favicon.png"><link type="text/css" rel="stylesheet" href="assets/css/main.css"><style>@import url("../../../../cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.2/css/bootstrap-colorpicker.min.css");
+/* Option-Box*/
+#option-box *,#style-modal * {
+    direction: ltr;
+
+    }
+#option-box,#style-modal{
+    padding-left:0;
+
+    }
+#option-box { 
+    position: fixed;
+    top: 0px;
+    left: -100%;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    height: 100%;
+    overflow:visible;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row-reverse;
+    text-align:left;
+    }
+#option-box *{
+    text-transform: capitalize;
+    }
+#option-box .box {
+    background: #fff;
+    padding: 35px 30px;
+    width: 390px;
+    box-shadow: 0 5px 20px 1px rgba(61, 61, 61, .20);
+    -webkit-box-shadow: 0 5px 20px 1px rgba(61, 61, 61, .20);
+    -moz-box-shadow: 0 5px 20px 1px rgba(61, 61, 61, .20);
+    position: relative;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    }
+#option-box.show{
+    left:0;
+    }
+    #toggle-btn,#option-box{
+        z-index:1291;
+    }
+#toggle-btn{
+    background: #7c7c7c;
+    color:#fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 5px 0 rgba(0, 0, 0, .23);
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 5px 0 rgba(0, 0, 0, .23);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 5px 0 rgba(0, 0, 0, .23);
+    cursor: pointer;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+    opacity: .95;
+    padding: 8px 9px;
+    width: 40px;
+    position: fixed;
+    left: 0;
+    top: 180px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    }
+    #toggle-btn.hide{
+        left:-100%;
+    }
+#toggle-btn p{
+    margin-bottom:0;
+    }
+#close-btn{
+    position: absolute;
+    top: 19px;
+    right: 30px;
+
+    }
+    #close-btn button{
+        outline: 0;
+        font-size: 16px;
+    }
+.box h6{
+    margin-bottom: 10px;
+
+}
+#option-box .box > [id*=-box]{
+    margin-bottom:40px;
+}
+#style-modal .modal-body{
+    background:#fff;
+    padding:20px;
+    }
+.box li * {
+    font-size: 13px;
+    font-weight: 500;
+    }
+.box .btn{
+    font-size: 13px;
+    }
+.color-preview{
+    border:0;
+    }
+.color-picker,select.form-control{
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+        border-left: 0;
+    }
+    .degree.form-control{
+        border-top-right-radius:0;
+    border-bottom-right-radius:0;
+    }
+    .degree.form-control+input-group-text{
+        border-top-left-radius:0;
+    border-bottom-left-radius:0;
+    }
+    .input-group-text{
+        background-color: #f1f1f1;
+
+    }
+.colorpicker *,.colorpicker {
+    transition:none !important;
+    }
+div#style-modal p, div#style-modal ul {
+    color: #4e4e4e;
+    }
+#style-modal p * {
+    font-weight:500;
+    }
+#style-modal ul{
+    margin-bottom:20px;
+    }
+#demos-box .demos li{
+    width: 60px;
+    height: 30px;
+    border-radius: 40px;
+    box-shadow: 0 5px 20px 1px rgba(61,61,61,0.1);
+    overflow: hidden;
+        cursor: pointer;
+
+}
+#demos-box .demos li.active{
+    box-shadow: 0 5px 20px 1px rgba(61,61,61,0.4);
+
+}
+
+#demos-box .demos li img{
+    width: 100%;
+    min-height: 60%;
+    position: relative;
+    top: 40%;
+}
+#comingSoon-page.style-2 #option-box #demos-box{
+    display:none;
+}
+@media(min-width:1281px){
+    #toggle-btn:hover {
+    width:50px;
+    padding: 8px 13px;
+    }
+}
+@media(max-width:700px){
+    #option-box{
+            width: 70%;
+    }
+    
+    #demos-box .demos li {
+        width: 40px;
+        height: 20px;
+    }
+    #option-box .box {
+    width: 100%;
+    padding: 25px 18px;
+    }
+#option-box:not(.show){
+    left: -140%;
+    }
+#toggle-btn {
+    padding: 8px 9px;
+    width: 40px;
+    }
+    #option-box .box > [id*=-box] {
+        margin-bottom: 10px;
+    }
+    .btn-main,.btn-black{
+        padding: 6px 12px;
+    }
+}
+   @media(max-width:325px){
+    #option-box{
+            width: 80%;
+    }
+   
+   }</style></head><!-- !Important #{demo} for #{demo} shapes--><!-- For RTL You Must add "dir=rtl" to the body  --><body class="demo-1" id="error-page" data-offset="500" data-spy="scroll" data-target="#navbar" dir="rtl"><!-- =============== Header =============== --><header id="header"><nav class="navbar navbar-expand-lg  fixed-top" id="navbar"><div class="container"><!-- Brand --><a class="navbar-brand mb-0" href="index.html"><img class="logo" src="assets/images/logo/logo_white.png" title="Xena" alt="Xena"/></a><button class="navbar-toggler" data-target="#navbar-collapse" data-toggle="collapse" type="button" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation"><span></span><span></span><span></span></button><div class="collapse navbar-collapse " id="navbar-collapse"><!-- Nav Links --><ul class="navbar-nav nav nav-pills"><!-- الرئيسية dropdown --><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" href="#!" role="button" aria-expanded="false" aria-haspopup="true">الرئيسية</a><div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="index.html">الرئيسية</a><a class="dropdown-item" href="index-2.html"> 2 الرئيسية</a></div></li><!-- / الرئيسية dropdown --><!-- اخبارنا dropdown --><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" href="#!" role="button" aria-expanded="false" aria-haspopup="true">اخبارنا</a><div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="all-blogs.html">اخبارنا</a><a class="dropdown-item" href="all-blogs-masonry.html">Blogs masonry</a><a class="dropdown-item" href="all-blogs-right-sidebar.html">Blog with right sidebar</a><a class="dropdown-item" href="all-blogs-left-sidebar.html"> Blog with left sidebar</a><a class="dropdown-item" href="all-blogs-masonry-right-sidebar.html">Masonry blog with right sidebar</a><a class="dropdown-item" href="all-blogs-masonry-left-sidebar.html">Masonry blog with left sidebar</a><a class="dropdown-item" href="single-blog.html">مدونة</a></div></li><!-- / اخبارنا dropdown --><!-- Coming Soon dropdown --><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" href="#!" role="button" aria-expanded="false" aria-haspopup="true">Coming Soon</a><div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="coming-soon.html">Coming Soon</a><a class="dropdown-item" href="coming-soon-2.html">Coming Soon 2</a><a class="dropdown-item" href="coming-soon-3.html">Coming Soon 3</a></div></li><!-- / Coming Soon dropdown --><li class="nav-item"><a class="nav-link active" href="404-error.html">404 Error</a></li></ul><!-- / Nav Links --></div></div></nav></header><!-- ========================================= --></body><main><!-- =========== 404 Error =============== --><section class="small-section"><div class="container text-center"><!-- Error Text --><h1 class="error-icon display-1"> <b>404</b></h1><p class="text-uppercase">عذرا ! </p><p> الصفحة ليست متوفره </p><button class="btn-gradient" onclick="window.history.back();"><span>رجوع</span></button><!-- /Error Text -->                                   </div></section><!-- ========================== --> </main><!-- =========== footer =============== --> <footer><!-- Copyright -->    <div class="copyright p-3 text-center"><p class="m-0">© 2019 Xena. </p><p class="m-0">صَمم بواسطة<a href="https://themeforest.net/user/pionthemes/portfolio">PionThemes</a>طَور بواسطة<a href="https://themeforest.net/user/norhan_moh/portfolio">Norhan_Moh</a></p></div><!-- /.Copyright --></footer><!-- ========================================= --><!-- =========== Loading screen  =============== --><div id="loader"><div class="circle"></div><div class="circle"></div><div class="circle"></div><div class="circle"></div></div><!-- ========================================= --><!-- ===========  Scripts  =============== --><script src="assets/js/custom.js"></script><script src="https://www.googletagmanager.com/gtag/js?id=UA-56934545-9" async=""></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-56934545-9');</script><div id="option-box" dir="ltr"><!-- Color Option--><div class="box"><div id="close-btn"> <button class="close" type="button" aria-label="Close"><span class="fas fa-times" aria-hidden="true"></span></button></div><div id="demos-box"><h6 class="flow-text text-left">Choose Demo ( 18 )</h6><ul class="list-unstyled list-inline demos"><li class="gradient-background list-inline-item active"><img src="assets/images/demos-patterns/1.png" title="demo-1" alt="demo-1"></li><li class="gradient-background list-inline-item"><img src="assets/images/demos-patterns/2.png" title="demo-2" alt="demo-2"></li><li class="gradient-background list-inline-item"><img src="assets/images/demos-patterns/3.png" title="demo-3" alt="demo-3"></li><li class="gradient-background list-inline-item"><img src="assets/images/demos-patterns/4.png" title="demo-4" alt="demo-4"></li><li class="gradient-background list-inline-item"><img src="assets/images/demos-patterns/5.png" title="demo-5" alt="demo-5"></li><li class="gradient-background list-inline-item"><img src="assets/images/demos-patterns/6.png" title="demo-6" alt="demo-6"></li><li class="gradient-background list-inline-item"><img src="assets/images/demos-patterns/7.png" title="demo-7" alt="demo-7"></li><li class="gradient-background list-inline-item"><img src="assets/images/demos-patterns/8.png" title="demo-8" alt="demo-8"></li><li class="gradient-background list-inline-item"><img src="assets/images/demos-patterns/9.png" title="demo-9" alt="demo-9"></li><li class="gradient-background list-inline-item"><img src="assets/images/demos-patterns/10.png" title="demo-10" alt="demo-10"></li><li class="gradient-background list-inline-item"><img src="assets/images/demos-patterns/11.png" title="demo-11" alt="demo-11"></li><li class="gradient-background list-inline-item"><img src="assets/images/demos-patterns/12.png" title="demo-12" alt="demo-12"></li><li class="gradient-background list-inline-item"><img src="assets/images/demos-patterns/13.png" title="demo-13" alt="demo-13"></li><li class="gradient-background list-inline-item"><img src="assets/images/demos-patterns/14.png" title="demo-14" alt="demo-14"></li><li class="gradient-background list-inline-item"><img src="assets/images/demos-patterns/15.png" title="demo-15" alt="demo-15"></li><li class="gradient-background list-inline-item"><img src="assets/images/demos-patterns/16.png" title="demo-16" alt="demo-16"></li><li class="gradient-background list-inline-item"><img src="assets/images/demos-patterns/17.png" title="demo-17" alt="demo-17"></li><li class="gradient-background list-inline-item"><img src="assets/images/demos-patterns/18.png" title="demo-18" alt="demo-18"></li></ul></div><div id="color-box"><h6 class="flow-text text-left">Choose Color </h6><ul class="list-unstyled"><li id="main-color-select"><div class="input-group mb-3"><div class="input-group-prepend"><span class="input-group-text">Main Color</span><span class="input-group-text color-preview" style="background-color:#dd3e54"></span><input class="form-control color-picker colorpicker-element" type="text" aria-label="select colors " value="#dd3e54"></div></div></li><li id="secondary-color-select"><div class="input-group mb-3"><div class="input-group-prepend"><span class="input-group-text">secondary Color</span><span class="input-group-text color-preview" style="background-color:#e100ff"></span><input class="form-control color-picker colorpicker-element" type="text" aria-label="select colors " value="#e100ff"></div></div></li><li id="gradient-direction"><div class="input-group mb-3"><div class="input-group-prepend"><span class="input-group-text">Gradient Direction</span><select class="form-control"><option selected="" value="to right">to right</option><option value="to left">to left</option><option value="to top">to top</option><option value="to bottom">to bottom</option><option value="degree">degree </option></select></div></div><div class="input-group mb-3 degree-form" style="display:none"><input class="form-control degree" type="number" aria-label="select colors " value="180"><div class="input-group-append"></div><span class="input-group-text">deg</span></div></li></ul></div><button class="btn-main" id="rtl-page">show <span>RTL </span> version</button><a class="btn-black btn center" id="get-style" href="#style-modal">Get The Style</a></div><div id="toggle-btn"><p><i class="fas fa-cog"></i></p></div></div><div class="modal fade" id="style-modal" role="dialog" tabindex="-1"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content"><div class="modal-body"><button class="close" data-dismiss="modal" type="button" aria-label="Close"><span class="fas fa-times" aria-hidden="true"> </span></button><h3>Selected colors & Demos</h3><p><span>CSS Version :</span><b> main.css File</b></p><ul class="css-code list-unstyled"><li><span class="text-lowercase">--color-main :</span><span class="color-main-code"></span></li><li><span class="text-lowercase">--color-secondary :</span><span class="color-secondary-code"></span></li><li><span class="text-lowercase">--color-gradient :</span><span class="color-gradient-code"></span></li></ul><p><span>SASS Version : </span><b>variables.scss File</b></p><ul class="scss-code list-unstyled"><li><span class="text-lowercase">$color-main :</span><span class="color-main-code"></span></li><li><span class="text-lowercase">$color-secondary :</span><span class="color-secondary-code"></span></li><li><span class="text-lowercase">$color-gradient :</span><span class="color-gradient-code"></span></li></ul><p><span>Demo name : </span><b class="demo-name text-lowercase"></b><br><span>add it to the body's class attribute</span></p></div></div></div></div><script src="../../../../cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.2/js/bootstrap-colorpicker.min.js"></script><script>/*=======================================================================
+    Append the Box && Setting Default colors Dynamic 
+======================================================================*/
+
+
+(function(){
+
+
+
+
+    // Setting the Colors
+
+
+    var colorMain_default=$(":root").css('--color-main'),
+        colorSecondary_default=$(":root").css('--color-secondary'),
+        gradientDirection_default=$(":root").css('--gradient-direction').split(' ');
+        gradientDirection_default=gradientDirection_default[1] +' '+gradientDirection_default[2];
+
+        // Check existing of the main Vairbales 
+        // Run Plugin 
+        $('.color-picker').colorpicker();
+
+        //  Set the default values 
+        $("#main-color-select").find(".color-picker").attr("value",colorMain_default);
+        $("#main-color-select .color-preview").css("background-color",colorMain_default)
+        $("#secondary-color-select").find(".color-picker").attr("value",colorSecondary_default);
+        $("#secondary-color-select .color-preview").css("background-color",colorSecondary_default)
+        $("#gradient-direction select [value='"+gradientDirection_default+"']").attr("selected","selected").siblings().removeAttr("selected");
+
+
+
+
+})();
+/*=======================================================================
+    Color Picker Actions Scripts 
+======================================================================*/
+
+(function() {
+
+    var colorCode='';
+    var colorMain=$("#main-color-select").find(".color-picker").val();
+    var colorSecondary=$("#secondary-color-select").find(".color-picker").val();
+    var gradientDirection=$("#gradient-direction select").find(":selected").val();
+    var gradientDegree=$(".degree").val();
+
+    $("#get-style").on('click',function(){
+        $(".color-main-code ").text(colorMain);
+        $(".color-secondary-code").text(colorSecondary);
+        $(".color-gradient-code").text("linear-gradient("+gradientDirection+", "+ colorMain +", "+colorSecondary+")");
+        $(".demo-name").text($(".demos .active img").attr("alt"));
+        $('#style-modal').modal();
+    });
+    $("#toggle-btn").on('click',function(){
+        $(this).toggleClass("hide");
+        $("#option-box").toggleClass("show");
+    });
+
+    $("#main-color-select .color-picker").on('change',function(){
+        colorCode=$(this).val();
+        $("#main-color-select .color-preview").css("background-color",colorCode);
+        colorMain=colorCode;
+        $(":root").css('--color-main', colorMain);//set
+        });
+    $("#secondary-color-select .color-picker").on('change',function(){
+        colorCode=$(this).val();
+        $("#secondary-color-select .color-preview").css("background-color",colorCode);
+        colorSecondary=colorCode;
+        $(":root").css('--color-secondary', colorSecondary);//set
+    });
+    $("#gradient-direction select").on("change",function(){
+        var selected=$(this).find(":selected").val();
+        if(selected=="degree"){
+            gradientDegree=$(".degree").val();
+            gradientDirection=gradientDegree+"deg";
+            $(":root").css('--gradient-direction',gradientDirection);//set
+
+            $(".degree-form").slideDown();
+
+        }else{
+            gradientDirection= selected;
+
+            $(".degree-form").slideUp();
+
+            $(":root").css('--gradient-direction', gradientDirection);//set
+        }
+    });
+    $("#gradient-direction .degree").on('change',function(){
+        gradientDegree=$(".degree").val();
+        gradientDirection=gradientDegree+"deg";
+        $(":root").css('--gradient-direction',gradientDirection);//set
+
+    });
+    $("#close-btn").on('click',function(){
+        $("#option-box").removeClass("show");
+        $("#toggle-btn").removeClass("hide");
+    });
+    $("#demos-box .demos li").on("click",function(){
+
+        var demo_name=$(this).find("img").attr("alt");
+        $("body").removeClass (function (index, className) {
+        return (className.match (/(^|\s)demo-\S+/g) || []).join(' ');
+        }).addClass(demo_name);
+        $(this).addClass("active").siblings().removeClass("active");
+
+    });
+        function GetFilename(url) {
+            if (url) {
+                var m = url.toString().match(/.*\/(.+?)\./);
+                if (m && m.length > 1) {
+                    return m[1];
+                }
+            }
+        return "";
+    }
+    if($("body").is("[dir=rtl]")){
+        $("#rtl-page span").text("LTR");
+        }else{
+            $("#rtl-page span").text("RTL");
+                }
+        $("#rtl-page ").on('click',function(){
+
+            var fileHostName = document.location.href;
+            var newPath ='';
+                if (document.location.href.includes("rtl")) {
+                      newPath=fileHostName.replace('rtl','ltr');
+                     
+                }
+                else if (document.location.href.includes("ltr")){
+                     newPath=fileHostName.replace('ltr','rtl');
+                }
+            
+
+            window.location.href =  newPath;
+
+        });
+
+
+})();</script>
+<!-- Mirrored from norhan-mohammed.com/demos/xena/rtl/404-error.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Sep 2019 10:20:46 GMT -->
+</html>
