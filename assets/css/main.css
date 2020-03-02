@@ -29322,3 +29322,6 @@ body[dir=rtl]#comingSoon-page.style-2 main section::before {
 .app-screen {
     max-width: 230px
 }
+.big-title{
+    font-size: 50px;
+}
