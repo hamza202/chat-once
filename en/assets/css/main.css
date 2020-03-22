@@ -29325,3 +29325,9 @@ body[dir=rtl]#comingSoon-page.style-2 main section::before {
 .big-title{
     font-size: 50px;
 }
+
+/*new code */
+/*/////*/
+.slick-slide{
+    outline: 0 !important;
+}
