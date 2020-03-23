@@ -25737,6 +25737,7 @@ body > footer .container {
 
 body > footer .copyright a {
     color: #212121;
+    padding: 8px
 }
 
 body > footer .logo {
@@ -29324,103 +29325,18 @@ body[dir=rtl]#comingSoon-page.style-2 main section::before {
 .big-title{
     font-size: 50px;
 }
+
 /*new code */
 /*/////*/
 .slick-slide{
     outline: 0 !important;
 }
-.my-nav{
-    position: relative;
-    width: 50px;
-    margin: 0 auto;
+#about-section h5{
+    font-size: 1rem;
 }
-.my-nav button{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    box-shadow: 0 5px 20px 1px rgba(61, 61, 61, .2);
-    transform: scale(1);
-    transition: all ease-in-out 0.4s;
+#pricing-section{
+    background: var(--color-theme-white-dark);
 }
-.my-nav button.slick-prev{
-    background-color: var(--color-main);
-    color: var(--color-theme-white);
-}
-.my-nav button.slick-next{
-    background-color: var(--color-theme-white);
-    color: var(--color-main);
-}
-.slick-arrow{
-    font-family: 'Font Awesome 5 Free' !important;
-    font-weight: 900 !important;
-}
-.my-nav button.slick-prev:before{
-    content: "\f30b";
-    font-family: 'Font Awesome 5 Free' !important;
-}
-.my-nav button.slick-next:before{
-    font-family: 'Font Awesome 5 Free' !important;
-    content: "\f30a";
-    color: var(--color-main);
-}
-.my-nav button:hover{
-    transform: scale(.9);
-}
-.my-dot{
-    padding-top: 50px;
-}
-.my-dot .slick-dots{
-    position: static;
-}
-.my-dot  .slick-dots li button:before{
-   display: none;
-}
-.my-dot  .slick-dots li button{
-    width: 13px;
-    height: 13px;
-    border-radius: 50%;
-    background-color: #e3e3e3;
-    display: inline-block;
-    margin: 0 3px;
-    cursor: pointer;
-}
-.my-dot .slick-dots li.slick-active button{
-    background-color: var(--color-main);
-}
-.slick-dots li{
-    margin: 0 2px;
-}
-.slider-nav h3{
-    font-size: 18px;
-}
-.slider-for img.zoomIn-img{
-    height: 570px;
-    overflow: hidden;
-    width: auto;
-    border-radius: 38px;
-    filter: drop-shadow(0 20px 10px rgba(180, 180, 180, .4));
-    cursor:grab ;
-}
-.slider-for span{
-    display: inline-block;
-    position: relative;
-}
-.slider-for .slick-slide{
-    text-align: center;
-    padding-bottom: 30px;
-}
-/*.slider-for span:before{*/
-/*    content: '';*/
-/*    position: absolute;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    z-index: 2;*/
-/*    opacity: 0;*/
-/*    background: url(../images/screenshots-section/frame.png) center center no-repeat;*/
-/*    background-size: cover;*/
-/*}*/
 #pricing-section .plan li p::before{
     display: none;
 }
@@ -29441,7 +29357,4 @@ body[dir=rtl]#comingSoon-page.style-2 main section::before {
 }
 .mr-app-container p{
     color: var(--color-main);
-}
-#pricing-section{
-    background: var(--color-theme-white-dark);
 }
