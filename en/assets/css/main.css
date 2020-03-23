@@ -29331,3 +29331,30 @@ body[dir=rtl]#comingSoon-page.style-2 main section::before {
 .slick-slide{
     outline: 0 !important;
 }
+#about-section h5{
+    font-size: 1rem;
+}
+#pricing-section{
+    background: var(--color-theme-white-dark);
+}
+#pricing-section .plan li p::before{
+    display: none;
+}
+#pricing-section .plan li p{
+    padding: 0 10px;
+}
+.mr-app-logo{
+    max-width: 200px;
+    height: auto;
+}
+.mr-app-container{
+    background-color: #f2f2f5;
+    border-radius: 5px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.40);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.40);
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.40);
+}
+.mr-app-container p{
+    color: var(--color-main);
+}
